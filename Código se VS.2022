@@ -1,1 +1,59 @@
+ int i = 0;
 
+ while (i < 10)
+ {
+
+
+
+
+
+     i++;
+
+
+     Console.WriteLine($"Escriba el numero {i}: ");
+     int n = int.Parse(Console.ReadLine());
+
+     int n6 = i;
+
+     if (n6 >= 6)
+         break;
+     {
+         n6 = n;
+         //Console.WriteLine(n1);
+     }
+         int n7 = i;
+     if (n7 >= 7)
+         break;
+         {
+             n7 = n;
+             //Console.WriteLine(n2);
+         }
+             int n8 = i;
+     if (n8 >= 8)
+         break;
+             {
+               n8 = n;
+             }
+                 int n9 = i;
+                 if (n9 >= 9)
+                     break;
+                 {
+                     n9 = n;
+                 }
+                     int n10 = i;
+                      if (n10 == 10)
+                          break;
+                     {
+                         n10 = n;
+ 
+                     }
+
+     int numt = (n6 + n7 + n8 + n9 + n10);
+
+     int promedio = (n6+n7+n8+n9+n10 % 10);
+     Console.WriteLine("La suma de todos los numeros es: " + numt);
+     Console.WriteLine();
+     Console.WriteLine("El promedio de la suma de todos los numeros es: " + promedio);
+     Console.WriteLine();
+
+ }
