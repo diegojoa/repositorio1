@@ -1,0 +1,53 @@
+  int i = 1;
+
+  while (i < 10)
+  {
+               
+      Console.WriteLine($"Escriba el numero {i}: ");
+      int n1 = int.Parse(Console.ReadLine());
+      i++;
+
+      Console.WriteLine($"Escriba el numero {i}: ");
+      int n2 = int.Parse(Console.ReadLine());
+      i++;
+
+      Console.WriteLine($"Escriba el numero {i}: ");
+      int n3 = int.Parse(Console.ReadLine());
+      i++;
+
+      Console.WriteLine($"Escriba el numero {i}: ");
+      int n4 = int.Parse(Console.ReadLine());
+      i++;
+      Console.WriteLine($"Escriba el numero {i}: ");
+      int n5 = int.Parse(Console.ReadLine());
+      i++;
+
+      Console.WriteLine($"Escriba el numero {i}: ");
+      int n6 = int.Parse(Console.ReadLine());
+      i++;
+
+      Console.WriteLine($"Escriba el numero {i}: ");
+      int n7 = int.Parse(Console.ReadLine());
+      i++;
+
+      Console.WriteLine($"Escriba el numero {i}: ");
+      int n8 = int.Parse(Console.ReadLine());
+      i++;
+
+      Console.WriteLine($"Escriba el numero {i}: ");
+      int n9 = int.Parse(Console.ReadLine());
+      i++;
+
+      Console.WriteLine($"Escriba el numero {i}: ");
+      int n10 = int.Parse(Console.ReadLine());
+      i++;
+
+      int numt = (n6+n7+n8+n9+n10);
+          Console.WriteLine("La suma de los ultimos 5 digitos es de: "+numt);
+      Console.WriteLine();
+      int promedio = (n6 + n7 + n8 + n9 + n10 % 5);
+          Console.WriteLine("El promedio de los ultimos 5 numeros es de: "+promedio);
+
+
+
+  }
